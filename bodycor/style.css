@@ -1,0 +1,46 @@
+:root {
+    --bg-color: #ebebeb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+}
+
+.text {
+    font-size: 3rem;
+    color: #303030;
+    font-weight: bolder;
+}
+
+#color {
+    width: 5em;
+    height: 1.5em;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.button {
+    width: 3.5em;
+    height: 2em;
+    font-size: 2rem;
+}
