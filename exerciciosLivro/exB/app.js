@@ -11,3 +11,4 @@ function calcular (){
     }
 }
     document.getElementById('calcular').addEventListener('click', calcular);
+    
